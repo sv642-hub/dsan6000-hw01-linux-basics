@@ -7,3 +7,4 @@ do
 	lines=$(wc -l < "$file")
 	echo "$name,$size,$lines" >> wikimedia_data_summary.csv
 done
+
